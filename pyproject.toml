@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "mt_pack"
+version = "1.0.0"
+description = "Multi-Task Learner"
+authors = ["Christopher Kuenneth <christopher.kuenneth@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pandas = "^1.0.0"
+matplotlib = "^3.1.2"
+sklearn = "^0.0"
+numpy = "^1.18.1"
+seaborn = "^0.10.0"
+click = "^7.0"
+tabulate = "^0.8.6"
+tqdm = "^4.42.1"
+tensorflow-addons = "^0.10"
+pillow = "^7.0.0"
+toml = "^0.10.0"
+plotly = "^4.5.2"
+nbformat = "4.4.0"
+deepdiff = "^4.2.0"
+psutil = "^5.7.0"
+notebook = "^6.0.3"
+xgboost = "^1.0.2"
+keras-tuner = "^1.0.1"
+shap = "^0.35.0"
+tensorflow = "^2.3.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+black = "^19.10b0"
+line_profiler = "^3.0.2"
+pylint = "^2.4.4"
+pydot = "^1.4.1"
+graphviz = "^0.13.2"
+
+[tool.poetry.scripts]
+mtask = "mt_pack.multi_task:script"
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
