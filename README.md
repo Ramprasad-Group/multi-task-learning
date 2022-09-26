@@ -4,17 +4,13 @@ This repository contains the code to the [paper](https://www.cell.com/patterns/f
 
 ## Prerequisites
 
-- [Poetry](https://python-poetry.org/docs/) must be installed. Make sure Poetry uses the right env (`poetry env use python3.7`)
-
-```bash
-curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master get-poetry.py | python
-```
+- [Poetry](https://python-poetry.org/docs/) must be installed. See https://python-poetry.org/docs/#installation
 
 ## Install
 
 1. Clone repo 
 ```bash
-https://gitlab.com/ramprasad-group/multi-task-learning && cd multi-task-learning
+git clone https://gitlab.com/ramprasad-group/multi-task-learning && cd multi-task-learning
 ```
 
 2. Init poetry
