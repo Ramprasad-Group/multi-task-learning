@@ -16,7 +16,7 @@ from tensorflow import keras
 from tensorflow.keras import callbacks
 import tensorflow_addons as tfa
 
-from mt_pack.task_new.transform import get_dataset_mt2, to_tf_datasets
+from mt_pack.tasks.transform import get_dataset_mt2, to_tf_datasets
 from mt_pack.utils import get_checkpoint_log
 from sklearn.preprocessing import MinMaxScaler, RobustScaler
 

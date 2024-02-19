@@ -11,7 +11,7 @@ from sklearn.metrics import (explained_variance_score, max_error,
                              mean_absolute_error, mean_squared_error, r2_score)
 from tensorflow import keras
 
-from mt_pack.task_new.transform import get_dataset_mt, to_tf_datasets
+from mt_pack.tasks.transform import get_dataset_mt, to_tf_datasets
 from mt_pack.utils import get_checkpoint_log
 from kerastuner.tuners import Hyperband
 from kerastuner import HyperModel

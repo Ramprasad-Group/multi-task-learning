@@ -11,7 +11,7 @@ from sklearn.metrics import (explained_variance_score, max_error,
                              mean_absolute_error, mean_squared_error, r2_score)
 
 from pathlib import Path
-from mt_pack.task_new.transform import get_dataset_st
+from mt_pack.tasks.transform import get_dataset_st
 
 @click.group(help="Train GPR models")
 @click.pass_context
